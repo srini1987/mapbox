@@ -14,5 +14,5 @@
 - run "npm install" from mapbox folder to install dependencies
 - run "npm start" to start the project
 
-#codesanbox link
-https://codesandbox.io/s/mapboxpopup-rxcxrm?file=/src/styles.css
+#codesandbox link
+https://codesandbox.io/s/mapboxpopup-rxcxrm?file=/src/App.js
