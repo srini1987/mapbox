@@ -1,0 +1,72 @@
+.App {
+  text-align: left;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+#map {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 95%;
+  margin: 25px;
+}
+
+.mapboxgl-popup {
+  max-width: 400px;
+  font: 12px/20px "Helvetica Neue", Arial, Helvetica, sans-serif;
+}
+
+.mapHdr {
+  text-align: center;
+  font-size: 16px;
+  font-weight: bold;
+  padding-bottom: 25px;
+}
+
+#home {
+  cursor: pointer;
+  display: block;
+  position: relative;
+  margin: auto;
+  width: auto;
+  height: 30px;
+  padding: 5px;
+  border: none;
+  top: -10px;
+  left: 35px;
+  border-radius: 3px;
+  font-size: 12px;
+  font-weight: bold;
+  text-align: center;
+  color: #fff;
+  background: #ee8a65;
+  float: left;
+}
+
+#legend {
+  background-color: #fff;
+  border-radius: 3px;
+  top: 185px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+  font: 12px/20px 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  padding: 10px;
+  position: absolute;
+  right: 49px;
+  z-index: 1;
+}
+
+#legend h4 {
+  margin: 0 0 10px;
+}
+
+#legend div span {
+  border-radius: 50%;
+  display: inline-block;
+  height: 10px;
+  margin-right: 5px;
+  width: 10px;
+}
